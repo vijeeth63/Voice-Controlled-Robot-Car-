@@ -1,0 +1,142 @@
+.app {
+  max-width: 36rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+}
+
+.header {
+  margin-bottom: 1.5rem;
+}
+
+.header h1 {
+  margin: 0 0 0.25rem;
+  font-size: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+.sub {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.75;
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.panel h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+}
+
+.hint {
+  margin: 0 0 0.75rem;
+  font-size: 0.85rem;
+  opacity: 0.85;
+  line-height: 1.4;
+}
+
+.btn {
+  font: inherit;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  padding: 0.55rem 1rem;
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  transition: transform 0.08s ease, filter 0.15s ease;
+}
+
+.btn:hover {
+  filter: brightness(1.06);
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--accent-contrast);
+}
+
+.btn-danger {
+  border-color: var(--danger);
+  background: var(--danger);
+  color: #fff;
+}
+
+.transcript {
+  margin-top: 0.75rem;
+  min-height: 2.5rem;
+  padding: 0.5rem 0.65rem;
+  border-radius: 8px;
+  background: var(--transcript-bg);
+  font-family: var(--mono);
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.dpad {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  align-items: center;
+}
+
+.dpad-row {
+  display: flex;
+  gap: 0.45rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.dpad-spacer {
+  width: 7.5rem;
+}
+
+.btn.pad {
+  min-width: 7.5rem;
+  padding: 0.65rem 0.5rem;
+}
+
+.speed-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.speed-btn {
+  flex: 1;
+}
+
+.speed-active {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--accent-contrast);
+}
+
+.status .label {
+  font-size: 0.8rem;
+  opacity: 0.75;
+}
+
+.last-send {
+  margin-top: 0.35rem;
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+.error {
+  margin-top: 0.65rem;
+  padding: 0.5rem 0.65rem;
+  border-radius: 8px;
+  background: var(--error-bg);
+  color: var(--error-fg);
+  font-size: 0.85rem;
+  line-height: 1.35;
+}
